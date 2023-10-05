@@ -94,16 +94,3 @@ MDRE (4-class) | **75.3** | - | 71.8 | -
 E1 (4-class) | 70.3 | 67.5 | **73.2** | 65.5
 **E2** | 70.1 | **71.8** | 72.9 | **71.5**
 
-For more details, please refer to the [report](https://arxiv.org/abs/1904.06022)
-
-## Citation
-If you find this work useful, please cite:
-
-```
-@article{sahu2019multimodal,
-  title={Multimodal Speech Emotion Recognition and Ambiguity Resolution},
-  author={Sahu, Gaurav},
-  journal={arXiv preprint arXiv:1904.06022},
-  year={2019}
-}
-```
