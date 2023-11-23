@@ -1,13 +1,7 @@
 # Investigating the causes of uncertainty in emotion recognition from multimodal speech Inputs.
 
 ## Overview
-Identifying emotion from speech is a non-trivial task pertaining to the ambiguous definition of emotion itself. In this work, we build light-weight multimodal machine learning models and compare it against the heavier and less interpretable deep learning counterparts. For both types of models, we use hand-crafted features from a given audio signal. Our experiments show that the light-weight models are comparable to the deep learning baselines and even outperform them in some cases, achieving state-of-the-art performance on the IEMOCAP dataset.
-
-The hand-crafted feature vectors obtained are used to train two types of models:
-
-1. ML-based: Logistic Regression, SVMs, Random Forest, eXtreme Gradient Boosting and Multinomial Naive-Bayes.
-2. DL-based: Multi-Layer Perceptron, LSTM Classifier
-
+The identification of emotions from speech is a challenging task due to the vague definition of emotion itself. This study employs a feature-based approach to address speech emotion recognition. The problem is formulated as a multi-class classification task, and two types of models are compared in terms of their performance.
 
 ## Datasets
 The [IEMOCAP](https://link.springer.com/content/pdf/10.1007%2Fs10579-008-9076-6.pdf) dataset was used for all the experiments in this work. 
